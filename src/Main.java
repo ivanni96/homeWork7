@@ -23,6 +23,20 @@ public class Main {
         for (int c = 10;c >= 0;c--){
             System.out.println(c);}
 
+        //Задача 3
+
+        int population = 12_000_000;
+        int profitOfPopulation = population / 1000* 17;
+        int declinePopulation = population / 1000* 8;
+        int totalIncreasePopulation = profitOfPopulation - declinePopulation;
+
+        for (int d = 1;d <= 10;d++) {
+            population = population + totalIncreasePopulation;
+
+            System.out.println("Год " + d + "численность населения составляет " + population);
+
+        }
+
 
 
 
