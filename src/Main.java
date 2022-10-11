@@ -39,12 +39,20 @@ public class Main {
         // Задание 4
 
         int bankDeposit1 = 15000;
-        int e = 0;
+        int e = 1;
         for (;bankDeposit1 <= 12_000_000; e++){
             bankDeposit1 = (bankDeposit1 / 100 * 7) + bankDeposit1;
             System.out.println("Месяц " + e + " сумма накоплений равна" + bankDeposit1);
-
         }
+
+        // Задача 5
+
+        int bankDeposit2 = 15000;
+        int g = 1;
+        for (;bankDeposit2 <= 12_000_000; g++){
+            bankDeposit2 = (bankDeposit2 / 100 * 7) + bankDeposit2;
+            if (g % 6 == 0){
+                System.out.println("Месяц " + g + " сумма накоплений равна" + bankDeposit2);}}
 
 
 
