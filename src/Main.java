@@ -69,8 +69,15 @@ public class Main {
         for (int k= 1; k <= 31;k = k + 7){
 
                 System.out.println("Сегодня пятница "+ k + "число. Необходимо сдать отчет" );
+        }
 
+        // Задача 8
 
+        int l = 0;
+        for (; l <= 2122; l = l + 79) {
+            if (l >= 1822) {
+                System.out.println(l);
+            }
         }
 
 
