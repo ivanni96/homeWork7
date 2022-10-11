@@ -54,6 +54,14 @@ public class Main {
             if (g % 6 == 0){
                 System.out.println("Месяц " + g + " сумма накоплений равна" + bankDeposit2);}}
 
+        // Задача 6
+
+        int bankDeposit3 = 15000;
+        int h = 1;
+        for (;h <= 108; h++){
+            bankDeposit3 = (bankDeposit3 / 100 * 7) + bankDeposit3;
+            if (h % 6 == 0){
+                System.out.println("Месяц " + h + " сумма накоплений равна" + bankDeposit3);}}
 
 
 
