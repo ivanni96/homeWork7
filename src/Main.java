@@ -63,6 +63,20 @@ public class Main {
             if (h % 6 == 0){
                 System.out.println("Месяц " + h + " сумма накоплений равна" + bankDeposit3);}}
 
+        // Задача 7
+
+
+        for (int k= 1; k <= 31;k = k + 7){
+
+                System.out.println("Сегодня пятница "+ k + "число. Необходимо сдать отчет" );
+
+
+        }
+
+
+
+
+
 
 
 
