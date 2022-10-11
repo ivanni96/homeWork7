@@ -36,6 +36,17 @@ public class Main {
             System.out.println("Год " + d + "численность населения составляет " + population);
 
         }
+        // Задание 4
+
+        int bankDeposit1 = 15000;
+        int e = 0;
+        for (;bankDeposit1 <= 12_000_000; e++){
+            bankDeposit1 = (bankDeposit1 / 100 * 7) + bankDeposit1;
+            System.out.println("Месяц " + e + " сумма накоплений равна" + bankDeposit1);
+
+        }
+
+
 
 
 
