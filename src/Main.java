@@ -79,15 +79,26 @@ public class Main {
                 System.out.println(l);
             }
         }
+        // Задача 9
+
+        int x = 2;
+        int y = 0;
+        int z = 0;
+
+        for (y = 1; y <= 10; y++){
+            z= x * y;
+            System.out.println(x + "*" + y + "=" + z);}
 
 
-
-
-
-
-
-
-
-
+        }
     }
-}
+
+
+
+
+
+
+
+
+
+
