@@ -15,8 +15,7 @@ public class Main {
 
         // Задача 2
 
-        int b = 0;
-        b++;
+        int b = 1;
         while (b<10){
             b++;
             System.out.println(b);}
@@ -29,9 +28,11 @@ public class Main {
         int profitOfPopulation = population / 1000* 17;
         int declinePopulation = population / 1000* 8;
         int totalIncreasePopulation = profitOfPopulation - declinePopulation;
+        int totalPopulation = 0;
 
         for (int d = 1;d <= 10;d++) {
-            population = population + totalIncreasePopulation;
+            totalPopulation = population + totalIncreasePopulation;
+            population = totalIncreasePopulation + totalPopulation;
 
             System.out.println("Год " + d + "численность населения составляет " + population);
 
